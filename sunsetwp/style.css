@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: ogg;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-image: url(seasunset.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+#overlay{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    opacity: 20%;
+}
+#base{
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 90%;
+    width: 90%;
+    background-image: url(seasunset.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: transparent;
+    /* border: 2px solid white; */
+    border-radius: 10px;
+    box-shadow: 2px 2px 20px 5px rgb(48, 48, 48);
+}
+#base #img1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 200px;
+}
+#base #sunset{
+    position: absolute;
+    width: 30px;
+    height: 250px;
+    /* background-color: rgb(255, 251, 251); */
+}
+#base #icons{
+    position: absolute;
+    bottom: 0%;
+    right: -2.5%;
+    height: 270px;
+    width: 50px;
+    /* background-color: white; */
+}
+#base #icons i{
+    line-height: 40px;
+    font-size: 30px;
+    color: white;
+}
+#base #sunset h1{
+    position: absolute;
+    top: 20px;
+    left: -70%;
+    bottom: 5px;
+    letter-spacing: 20px;
+    color: white;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+}
+#base #rline{
+    position: absolute;
+    left: 55%;
+    width: 45%;
+    height: 55%;
+    background-color: transparent;
+   border-top: 2px solid rgb(255, 255, 255);
+   border-right: 2px solid rgb(255, 255, 255);
+   border-top-right-radius: 10px;
+
+}
+#base #lline{
+    display: flex;
+    position: absolute;
+    top: 40%;
+    width: 45%;
+    height: 60%;
+    /* background-color: rgb(228, 210, 210); */
+   border-bottom: 2px solid rgb(255, 255, 255);
+   border-left: 2px solid rgb(255, 255, 255);
+   border-bottom-left-radius: 10px;
+   color: black;
+}
+#base #lline #para{
+    position: absolute;
+    top: 40%;
+    left: 19%;
+    height: 100px;
+    width: 480px;
+    /* background-color: chartreuse; */
+}
+#base #lline #para p{
+    margin-top: 5px;
+    font-size: 13px;
+    text-align: left;
+    font-family: Gilroy;
+}
+#base #lline #shades{
+    position: absolute;
+    left: 15%;
+    font-weight: 900;
+    /* writing-mode:vertical-lr ;
+    transform: rotate(180deg); */
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+#base #lline #of{
+    position: absolute;
+    top: 25%;
+    left: 37%;
+    transform: translate(-50%,-50%);
+    font-size: 200px;
+    letter-spacing: -5px;
+}
+#base #lline #sets{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    font-size: 100px;
+    letter-spacing: 12px;
+}
+#base #lline h2{
+    position: absolute;
+    top: 40%;
+    left: 14%;
+    letter-spacing: 6px;
+    font-weight: 900;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+
+}
+#lline hr{
+    position: absolute;
+    left: 16%;
+    top: 10%;
+    width: 5px;
+    height: 115px;
+    background-color: black;
+    border: transparent;
+}
+#lline button{
+    height: 50px;
+    width: 150px;
+    background-color: transparent;
+    margin-top: 30px;
+    margin-left: -20px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 50px;
+    font-size: 15px;
+    font-family: Gilroy;
+}
+#lline button:hover{
+    background: #7E1C6B;
+    
+}
+#base #nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: absolute;
+    margin-top: 10px;
+    height: 50px;
+    width: 70%;
+    color: white;
+    /* background-color: white; */
+
+}
+#nav a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+#nav i{
+    font-size: 20px;
+}
+#nav img{
+    height: 50px;
+    border-radius: 100px;
+    filter: blur(1px);
+}
+#gradient{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient( 90deg, transparent, rgb(37, 37, 37) 95%);
+    border-radius: 10px;
+}
+#para1{
+    position: absolute;
+    right: 20%;
+    top: 18%;
+    height: 200px;
+    width: 400px;
+    text-align: right;
+    color: white;
+    /* background-color: blue; */
+}
+#rline #para1 p{
+    font-family: Gilroy;
+
+}
+#rline button{
+    height: 50px;
+    width: 150px;
+    background-color: transparent;
+    margin-top: 30px;
+    margin-left: -20px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 50px;
+    font-size: 15px;
+    font-family: Gilroy;
+}
+#rline button:hover{
+    background: #7E1C6B;
+    
+}
+#rline img{
+    position: absolute;
+    right: 4%;
+    top: 19%;
+    height: 130px;
+}
+#quotes{
+    position: absolute;
+    bottom: 5%;
+    right: 10%;
+    width: 350px;
+    height: 100px;
+    background-color: transparent ;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+#quotes h3{
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+}
+#quotes #line{
+    position: absolute;
+    left: 5%;
+    height: 2px;
+    width: 90%;
+    background-color: white;
+}
+#quotes p{
+    text-align: center;
+
+}

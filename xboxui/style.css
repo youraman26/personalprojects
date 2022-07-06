@@ -1,0 +1,529 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#main{
+    width: 100%;
+    min-height: 100vh;
+    background-color: black;
+    display: flex;
+}
+#main #first{
+    width: 25%;
+    height: 100vh ;
+    background-color: rgb(179, 90, 90);
+}
+#main #top{
+    position: relative;
+    width: 100%;
+    height: 50%;
+    background: linear-gradient(to right bottom, #f8d1a2,#ee1959);
+    background-color: blueviolet;
+}
+#top #photos{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-70%,-60%);
+    width: 60%;
+    height: 70%;
+    background-color: brown;
+    /* background-image: url(https://media.istockphoto.com/photos/curious-black-child-boy-smiling-on-blue-background-picture-id1248564414?k=20&m=1248564414&s=612x612&w=0&h=bDrWapu9RPTrjg8scVBrf0OuYkbJqlZluDvhUxxX_Fk=); */
+    
+    /*  */
+    
+}
+#photos #one{
+    width: 100%;
+    height: 50%;
+    background-color: red;
+    background-image: url(https://media.istockphoto.com/photos/freestyle-girl-standing-isolated-on-blue-looking-camera-cheerful-picture-id1206955562?k=20&m=1206955562&s=612x612&w=0&h=7QlFbxSF5vhm5gXMt8Sj1bUG5UX_5VvHZFuXPCHKVyc=);
+    background-size: cover;
+}
+#photos #two{
+    width: 100%;
+    height: 50%;
+    background-color: rgb(216, 106, 106);
+    background-image: url(https://media.istockphoto.com/photos/beautiful-woman-stock-photo-picture-id1286400455?k=20&m=1286400455&s=612x612&w=0&h=VE6hSWNBpv51nzYy26oM7BCn10F8VIORhS0aC1wHK90=);
+    background-size: cover;
+}
+#text{
+    position: absolute;
+    bottom:3%;
+    left: 8%;
+    width: auto;
+    height: auto;
+    color: #fff;
+    font-family: Gilroy;
+    font-size: 10px;
+    /* margin-top: 100%; */
+    /* background-color: yellow; */
+}
+#text span{
+    font-weight: 300;
+}
+#top #btns{
+    padding: 10px 10px 10px 10px;
+    position: absolute;
+    left: 75%;
+    top: 20%;
+  width: 20%;
+  height: 40%;
+  /* background-color: yellow; */
+}
+#btns #b1{
+    width: 50%;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+   /* box-shadow: grey 1px 1px 7px 0px; */
+    background: linear-gradient(to right bottom, #ffb151,#ff024e);
+    /* background-color: violet; */
+    
+}
+#btns #b2{
+    margin-top: 60px;
+    width: 50%;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    /* box-shadow: grey 1px 1px 7px 0px; */
+    /* background-color: violet; */
+    background: linear-gradient(to right bottom, #ffb151,#ff024e);
+    
+}
+#btns i{
+    font-size: 25px;
+    color: #fff;
+}
+
+#main #bottom{
+    position: relative;
+    width: 100%;
+    height: 50%;
+    background-color:#fff;
+}
+#bottom #text1{
+ padding: 10px;
+}
+#bottom h1{
+    /* line-height: 50px; */
+    font-family: Gilroy;
+    font-size: 30px;
+    color: #0096bb;
+}
+#bottom h3{
+    font-family: Gilroy;
+    
+
+}
+#text1 h3{
+    color: rgb(66, 64, 64);
+}
+#bottom #text1 h1 span{
+    font-weight: 600;
+}
+#bottom #text1 h3{
+    font-size: 18px;
+}
+#bottom #text1 h3 i span{
+    font-weight: 600;
+
+}
+#bottom #blue{
+    padding: 10px;
+    width: 50%;
+    height: 22%;
+    margin-left: 80px;
+    border-radius: 20px;
+    background-color:#3ec0e0 ;
+}
+#bottom #cil3{
+    position: absolute;
+    top: 55%;
+    left: 12%;
+    width: 15px;
+    height: 15px;
+    border-radius: 50px;
+    background-position: center;
+    background-size: cover;
+    /* background-image: url(https://media.istockphoto.com/photos/and-what-next-pleasantly-shocked-bald-guy-in-white-shirt-holds-hands-picture-id1324355492?k=20&m=1324355492&s=612x612&w=0&h=MCzWRRd53Pu5FAvyJk-VLj_pKtZy8AcN37v7P7mFJlk=); */
+    background-color: #3ec0e0;
+}
+#bottom #cil4{
+    position: absolute;
+    top: 47%;
+    left: 13%;
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+    background-position: center;
+    background-size: cover;
+    /* background-image: url(https://media.istockphoto.com/photos/and-what-next-pleasantly-shocked-bald-guy-in-white-shirt-holds-hands-picture-id1324355492?k=20&m=1324355492&s=612x612&w=0&h=MCzWRRd53Pu5FAvyJk-VLj_pKtZy8AcN37v7P7mFJlk=); */
+    background-color: #3ec0e0;
+}
+#bottom #pink{
+    padding: 10px;
+    width: 50%;
+    height: 12%;
+    margin-top: 40px;
+    margin-left: 80px;
+    border-radius: 20px;
+    background-color:#ee1959 ;
+}
+#bottom #cil5{
+    position: absolute;
+    top: 72%;
+    right: 15%;
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+    background-position: center;
+    background-size: cover;
+    /* background-image: url(https://media.istockphoto.com/photos/and-what-next-pleasantly-shocked-bald-guy-in-white-shirt-holds-hands-picture-id1324355492?k=20&m=1324355492&s=612x612&w=0&h=MCzWRRd53Pu5FAvyJk-VLj_pKtZy8AcN37v7P7mFJlk=); */
+    background-color: #ee1959;
+}
+#bottom #cil6{
+    position: absolute;
+    top: 80%;
+    right: 13%;
+    width: 15px;
+    height: 15px;
+    border-radius: 50px;
+    background-position: center;
+    background-size: cover;
+    /* background-image: url(https://media.istockphoto.com/photos/and-what-next-pleasantly-shocked-bald-guy-in-white-shirt-holds-hands-picture-id1324355492?k=20&m=1324355492&s=612x612&w=0&h=MCzWRRd53Pu5FAvyJk-VLj_pKtZy8AcN37v7P7mFJlk=); */
+    background-color: #ee1959;
+}
+#bottom #cil2{
+    position: absolute;
+    top: 60%;
+    left: 3%;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://media.istockphoto.com/photos/and-what-next-pleasantly-shocked-bald-guy-in-white-shirt-holds-hands-picture-id1324355492?k=20&m=1324355492&s=612x612&w=0&h=MCzWRRd53Pu5FAvyJk-VLj_pKtZy8AcN37v7P7mFJlk=);
+    background-color: red;
+}
+
+#bottom p{
+    font-size: 15px;
+}
+#bottom #cil1{
+    position: absolute;
+    right: 5%;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://media.istockphoto.com/photos/cute-young-woman-thinking-and-looking-up-picture-id638637530?k=20&m=638637530&s=612x612&w=0&h=ICGVvMFk5T3cgx-rvA-C30feMRmA7UzQMMl0WITQf0Q=);
+    background-color: red;
+}
+
+
+
+#main #second{
+    width: 25%;
+    height: 100vh;
+    background: linear-gradient(#00cbfd,#347AB7 50%, #105bc5 );
+}
+#second #first1{
+    display: flex;
+    /* padding: 0px 10px; */
+    margin-top: 20px;
+    /* margin-left: 20px; */
+    width: 100%;
+    height: 20%;
+    /* background-color: violet; */
+}
+#second #first1 #img{
+    margin-left: 15px;
+    width: 30%;
+    height: 100%;
+    border-radius: 15px;
+    /* background-color: rosybrown; */
+    /* background-image: url(https://images.unsplash.com/photo-1604586376807-f73185cf5867?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80); */
+    background-size: cover;
+    background-position: bottom;
+    background-image: url(https://images.unsplash.com/photo-1509198397868-475647b2a1e5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=347&q=80);
+    /* background-image: url(https://images.unsplash.com/photo-1504370164829-8c6ef0c41d06?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80); */
+}
+#first1 #text2{
+    margin-left: 10px;
+    margin-top: 30px;
+    color: #fff;
+    /* padding: 0px 10px 0px 10px ; */
+    /* background-color: red; */
+    width: 60%;
+    height: 70%;
+}
+
+#text2 h3{
+    font-family: Gilroy;
+    font-size: 20px;
+    font-weight: 400;
+}
+#text2 h2{
+    font-family: Gilroy;
+    font-size: 25px;
+    font-weight: 800;
+}
+#second button{
+    margin-left: 90px;
+    margin-top: 20px;
+    padding: 10px 40px 10px 40px;
+    border-radius: 50px;
+    color: #fff;
+    border: transparent;
+    background-color: #91c3ee ;
+    box-shadow: 0px 5px 10px 2px rgba(43, 42, 42, 0.753);
+}
+#second #second2{
+    margin-top: 30px;
+    width: 100%;
+    height: 35%;
+    font-family: Gilroy;
+    color: #fff;
+    /* background-color: palegoldenrod; */
+}
+#second2 h3{
+    margin-left: 20px;
+}
+#second2 h4{
+    margin-left: 20px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+#second #img2{
+    margin-top: 25px;
+    margin-left: 25px;
+    width: 60%;
+    height: 70%;
+    border-radius: 15px;
+    background-image: url(https://images.unsplash.com/photo-1493711662062-fa541adb3fc8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    background-color: khaki;
+    background-size: cover;
+}
+#arr{
+    margin-left: 75%;
+    margin-top: -30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    border-radius: 50px;
+    border: 2px solid #fff;
+    background-color: transparent;
+}
+#second #h6{
+    margin-left: 75%;
+    margin-top: 12px;
+    font-weight: 400;
+    font-size: 13px;
+}
+#third{
+    border-top: 1px solid transparent;
+    display: flex;
+    width: 100%;
+    height: 15%;
+    margin-top: 25px;
+    /* background-color: pink; */
+}
+#third #img3{
+    margin-left: 15px;
+    /* margin-top: 0px; */
+    width: 30%;
+    height: 90%;
+    border-radius: 15px;
+    background-size: cover;
+    background-image: url(https://images.unsplash.com/photo-1614294149010-950b698f72c0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80);
+}
+
+#third #img4{
+    margin-left: 15px;
+    /* margin-top: 0px; */
+    width: 30%;
+    height: 90%;
+    border-radius: 15px;
+    background-size: cover;
+    background-image: url(https://images.unsplash.com/photo-1606305321490-0c05711a8fb6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=435&q=80);
+}
+#second h2,p{
+    margin-top: 0px;
+    margin-left: 20px;
+    color: #fff;
+    font-family: Gilroy;
+    
+}
+/* #second #para{
+    margin-top: 0px;
+    margin-left: 20px;
+    color: #fff;
+    font-family: Gilroy;
+    
+} */
+#third3{
+    width: 50%;
+    height: 100vh;
+    background-color: blueviolet;
+}
+#third3 #upper{
+    border-top: 1px solid transparent;
+    width: 100%;
+    height: 53%;
+    background-size: cover;
+    background-image: url(https://images.unsplash.com/photo-1585620385456-4759f9b5c7d9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    background-color: chartreuse;
+}
+#upper h4{
+    margin-top: 35%;
+    margin-left: 35px;
+    color: #fff;
+    font-family: Gilroy;
+    font-weight: 300;
+    font-size: 18px;
+    letter-spacing: 7px;
+}
+#upper h1{
+    margin-top: 0%;
+    margin-left: 35px;
+    color: #fff;
+    font-family: Gilroy;
+    font-weight: 300;
+    font-size: 35px;
+    letter-spacing: 18px;
+}
+
+#third3 #lower{
+    display: flex;
+    border-top: 1px solid transparent;
+    width: 100%;
+    height: 47%;
+    background: linear-gradient(to right bottom, #f7799f 25%,#d80041 80%);
+    background-color: tomato;
+}
+#third3 #img3{
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 12%;
+    height: 35%;
+    border-radius: 15px;
+    background-size: cover;
+    background-position: bottom;
+    background-image: url(https://images.unsplash.com/photo-1509198397868-475647b2a1e5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=347&q=80);
+    background-color: turquoise;
+}
+#third3 #text3{
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 70%;
+    height: 65%;
+    /* background-color: firebrick; */
+}
+#text3 #h4{
+    color: #fff;
+    font-family: Gilroy;
+    font-weight: 300;
+    font-size: 18px;
+}
+#text3 #H4{
+    color: #fff;
+    margin-top: 4px;
+    font-family: Gilroy;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 5px;
+}
+#text3 h5{
+    color: #fff;
+    font-family: Gilroy;
+    margin-top: 10px;
+    font-weight: 300;
+    font-size: 15px;
+}
+#text3 #para{
+    letter-spacing: 0px;
+    font-size: 13px;
+    font-weight: 300;
+    margin-top: 20px;
+    margin-left: 0px;
+}
+#lower button{
+    margin-top: 20px;
+    width: 100%;
+    height: 20%;
+    border-radius: 50px;
+    border: transparent;
+    color:#ff0a54;
+    font-weight: 600;
+    background-color: #fab0c6;
+}
+
+@media(max-width:500px){
+    #main{
+        flex-direction: column;
+    }
+    #main #first{
+        width: 100%;
+    }
+    #main #second{
+        width: 100%;
+    }
+    #first #bottom #blue{
+        margin-top: 30px;
+    }
+    #first #bottom #pink{
+        margin-top: 40px;
+    }
+    #third3{
+        width: 100%;
+    }
+    #third3 #lower{
+        flex-direction: column ;
+        height: 80%;
+    }
+    #lower #img3{
+        width: 35%;
+        margin-left: 30%;
+    }
+    #third3 #upper{
+        height: 80%;
+    }
+    #upper h1{
+        margin-left: 10px;
+    }
+    #upper h4{
+        margin-top: 80%;
+        margin-left: 10px;
+    }
+    
+    #lower #text3{
+        text-align: center;
+        margin-left: 60px;
+    }
+    #lower button{
+        height: 12%;
+    }
+}
+
+
+
+
+

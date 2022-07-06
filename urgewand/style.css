@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: #F3F4E4;
+}
+#para{
+    position: absolute;
+    top: 50%;
+    left:6%;
+    /* background-color: yellow; */
+    width: 400px;
+    font-family: ogg;
+    font-weight: 700;
+    letter-spacing: 1px;
+    height: 60px;
+}
+#text1{
+    position: absolute;
+    z-index: 9;
+    width: 50%;
+    height: 50%;
+    /* background-color: tomato; */
+}
+#text1 h1{
+    margin-top: 10px;
+    margin-left: -28px;
+    font-size: 270px;
+    font-family: ogg;
+    letter-spacing: -20px;
+    font-weight:100;
+
+}
+#text2{
+    position: absolute;
+    bottom: 5%;
+    right:0%;
+    z-index: 9;
+    width: 40%;
+    height: 50%;
+    /* background-color: purple; */
+}
+#text2 h1{
+    margin-top: -10px;
+    margin-left: 10px;
+    font-size: 370px;
+    font-family: ogg;
+    letter-spacing: -20px;
+    font-weight:100;
+
+}
+#img1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* height: 50%; */
+    width: 32%;
+}
+#img2{
+   position: absolute;
+   bottom: 5%;
+   left: 3%;
+   width: 200px;
+}
+#img3{
+    position: absolute;
+    top: -15px;
+    left: 73%;
+    width: 200px;
+    height: 200px;
+}
+
+#nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px;
+    height: 50px;
+    width: 55%;
+    font-family: Gilroy;
+    /* background-color: violet; */
+}
+#nav a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 400;
+}
+#words{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: ogg;
+    letter-spacing: -4px;
+    font-weight: 200;
+    font-size: 20px;
+    position: absolute;
+    left: 30%;
+    top: 75%;
+    width: 300px;
+    height: 100px;
+    /* background-color: teal; */
+}
+#circle{
+    position: absolute;
+    top: 37%;
+    padding: 35px 10px;
+    left: 64%;
+    border-radius: 100px;
+    width: 100px;
+    height: 100px;
+    border: 2px solid white;
+    /* background-color: purple; */
+}
+#circle h4{
+    font-size: 15px;
+    font-family: ogg;
+    letter-spacing: -1px;
+    text-align: center;
+}
+#detail{
+    position: absolute;
+    top: 20%;
+    left: 57%;
+    font-family: ogg;
+    font-weight: 400;
+    width: 150px;
+    height: 20px;
+    /* background-color: turquoise; */
+}
+#year{
+    position: absolute;
+   right: -290%;
+   top: -120px;
+    width: 70px;
+    height: 20px;
+    /* background-color: rgb(230, 24, 230); */
+}

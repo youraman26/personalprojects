@@ -1,0 +1,316 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: gilroy;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    position: relative;
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    /* background-color: bisque; */
+}
+#nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 15px 10px 20px ;
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    z-index: 99;
+    /* background-color: rgb(236, 3, 3); */
+}
+#nav #nlft{
+    width: 500px;
+    height: inherit;
+    /* background-color: lawngreen; */
+    display: flex;
+    
+}
+#nav #nlft img{
+    height: 35px;
+    opacity: 50%;
+}
+#nav #nlft a{
+    text-decoration: none;
+    color: rgba(139, 139, 139, 0.979);
+    margin-left: 30px;
+    margin-top: 15px;
+}
+#nav #nrgt{
+    width: 300px;
+    height: inherit;
+    margin-top: 20px;
+    /* background-color: lawngreen; */
+}
+#nav #nrgt a{
+    text-decoration: none;
+    color: rgba(139, 139, 139, 0.979);
+    margin-left: 30px;
+    margin-top: 50px;
+}
+#main #left{
+    position: relative;
+    width: 50%;
+    min-height: 100vh;
+    background-color: #000000;
+}
+#left button{
+    margin-left: 7%;
+    padding: 20px 40px 20px 40px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    color: #000;
+    font-size: 15px;
+    border: transparent;
+    background: linear-gradient(to bottom left, #000,#fff,#000);
+}
+#left #text{
+    position: relative;
+    padding: 15px 15px 15px 15px;
+    margin-top: 25%;
+    margin-left: 5%;
+    width: 50%;
+    height: 50%;
+    color: #fff;
+    /* background-color: red; */
+}
+#text h1{
+    letter-spacing: 4px;
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 50px;
+}
+#text h3{
+    line-height: 60px;
+    letter-spacing: 5px;
+}
+#text #small{
+    position: absolute;
+    left:    -10%;
+    padding: 15px 50px 0px 0px;
+    width: 80%;
+    height: 40%;
+    background-color: rgba(87, 87, 87, 0.664);
+    margin-top: 5%;
+    /* margin-left: 30%; */
+}
+#small h4{
+    margin-left: 53px;
+    margin-bottom: 10px;
+}
+#small p{
+    margin-left: 53px;
+    font-size: 12px;
+}
+#left img{
+    position: absolute;
+    right: -20%;
+    top: 25%;
+    height: 60%;
+    z-index: 9;
+}
+#left #circle{
+    position: absolute;
+    top: 15%;
+    right: -25%;
+    width: 200px;
+    height: 200px;
+    border: 35px solid #fff;
+    border-radius: 100px;
+    filter: blur(2px);
+    /* background-color: #fff; */
+
+}
+#left #shadow{
+    position: absolute;
+    top: 25%;
+    right: -25%;
+    width: 30%;
+    height: 50%;
+    border-radius: 150px;
+    filter: blur(120px);
+    background-color: rgba(168, 168, 168, 0.87);
+}
+#left #shadow2{
+    position: absolute;
+    top: 90%;
+    right: -15%;
+    width: 25%;
+    height: 2%;
+    border-radius: 50px;
+    filter: blur(30px);
+    background-color: rgb(255, 255, 255);
+}
+#main #right{
+    width: 50%;
+    min-height: inherit;
+    background-color:#000000;
+}
+#right #graph{
+    width: 55%;
+    height: 70%;
+    color: #fff;
+    /* background-color: rgb(240, 50, 16); */
+    margin-top: 25%;
+    margin-left: 45%;
+}
+#graph #line{
+    margin: 5px 0px 10px 0px;
+    width: 40%;
+    height: 2px;
+    background-color: #fff;
+}
+h4{
+    margin-top: 50px;
+    font-weight: 300;
+}
+.ing{
+    margin: 5px 0px 10px 0px ;
+    width: 80%;
+    height: 5px;
+    border-radius: 50px;
+    background-color: rgb(83, 83, 83);
+}
+.ing .filler{
+    position: relative;
+    width: 80%;
+    height: inherit;
+    background-color: #fff;
+}
+.ing .filler .value{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 16px;
+    right: -8%;
+    width: 30px;
+    height: 30px;
+    color: #000;
+    background-color: rgb(255, 255, 255);
+}
+.ing .filler .value .tip{
+    position: absolute;
+    top: -20px;
+    /* right: 0%; */
+    /* width: 20px;
+    height: 20px; */
+    /* background-color: #000; */
+    border: 10px solid red;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-top-color: transparent;
+    border-bottom-color:#fff;
+}
+#do{
+    right: -20%;
+}
+#teen{
+    right: -23%;
+}
+#char{
+    right: -12%;
+}
+#one{
+    width: 60%;
+}
+#two{
+    width: 20%;
+}
+#three{
+    width: 18%;
+}
+#four{
+    width: 35%;
+}
+#para{
+    font-size: 14px;
+    margin-top: 50px;
+}
+#graph button{
+    margin-top: 20px;
+    color: #fff;
+    border: transparent;
+    background-color: rgb(83, 83, 83);
+    padding: 10px 15px 10px 15px;
+}
+@media(max-width:500px){
+#main{
+    flex-direction: column;
+}
+#main #left{
+    width: 100%;
+}
+#left #text{
+    width: 90%;
+    top: 35%;
+}
+#left #text h1{
+    font-size: 50px;
+}
+#text #small{
+    width: 90%;
+    padding: 10px 50px 70px 0px
+}
+#text #small h4{
+    margin-top: 0px;
+}
+#left button{
+    position: absolute;
+    top: 40%;
+    left: 2%;
+    /* margin-top: 30%; */
+}
+#left img{
+    z-index: 99;
+    position: static;
+    transform: translate(45px,115px);
+    top: 80%;
+    right: 15%;
+}
+#left #shadow{
+    right: 30%;
+    top: 50%;
+    /* position: static; */
+}
+#left #shadow2{
+    z-index: 99;
+    top: 115%;
+    right: 25%;
+    /* position: static; */
+    width: 50%;
+}
+#left #circle{
+    /* z-index: -2; */
+    position: static;
+   transform: translate(185px,250px);
+    top: 75%;
+    right: 5%;
+}
+#main #right{
+    width: 100%;
+}
+#nav{
+    padding:15px 15px 10px 145px;
+}
+#nav #nlft a{
+    display: none;
+}
+#nav #nrgt{
+    display: none;
+}
+#right #graph{
+    width: 90%;
+    height: 70%;
+    color: #fff;
+    /* background-color: rgb(240, 50, 16); */
+    margin-top: 55%;
+    margin-left: 10%;
+}
+}
